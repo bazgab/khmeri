@@ -16,7 +16,7 @@ Khmeri is a lightweight ORM for SQLite3 written in Python
 
 The ORM can be installed through the Python Package Index with the commmand:
 ```python
-pip install khmeri
+python3 -m pip install khmeri
 ```
 
 ## Usage 
