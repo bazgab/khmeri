@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__version__ = '0.0.2'
+__version__ = '0.0.1'
+# for future versions, focus on tests and optimization
 
 from .database import Database
 from .manager import Manager
