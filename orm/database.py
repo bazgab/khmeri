@@ -51,7 +51,6 @@ class Database(object):
             result = self.cursor.fetchall()
         else:
             result = self.cursor.fetchmany(size=size)
-        #rows_selected = self.cursor.rowcount
         rows_selected = len(result)
         logger.info('rows selected: {}'.format(rows_selected))
         return result

@@ -21,18 +21,18 @@ class Field(object):
         )
 
 # string data types
-class StringField(Field):
+class Str(Field):
 
     def __init__(self, name=None, default=''):
         super().__init__(name, 'TEXT', default, False)
 
 # numeric data types
-class IntegerField(Field):
+class Int(Field):
 
     def __init__(self, name=None, default=0, primary_key=False):
         super().__init__(name, 'INTEGER', default, primary_key)
 
-class FloatField(Field):
+class Float(Field):
 
     def __init__(self, name=None, default=0.0):
         super().__init__(name, 'REAL', default, False)

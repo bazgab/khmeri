@@ -5,7 +5,7 @@ __version__ = '0.0.2'
 
 from .database import Database
 from .manager import Manager
-from .model import Model, StringField, IntegerField, FloatField
+from .model import Model, Str, Int, Float
 from .logger import root_logger, child_logger
 
 __all__ = (
@@ -13,9 +13,9 @@ __all__ = (
     'Database',
     'Manager',
     'Model',
-    'StringField',
-    'IntegerField',
-    'FloatField',
+    'Str',
+    'Int',
+    'Float',
     'root_logger',
     'child_logger'
 )
